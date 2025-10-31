@@ -1,0 +1,66 @@
+.sticky-navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1030;
+}
+.banner{
+    position:relative;
+}
+.banner-caption{
+    position: absolute;
+    top:0;
+    right: 80px;
+    padding-top: 70px;
+}
+.banner-caption .btn{
+    border-radius: 20px;
+}
+.d-flex img{
+    height: 250px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.tech-image{
+    position: relative;
+}
+.pic-name{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    border-radius: 5px;
+}
+body {
+  overflow-x: hidden;
+}
+.brand{
+    border: solid;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+.top-brand{
+    background-color:bisque;
+    
+}
+
+.brand-text{
+    white-space: nowrap;
+}
+.atm-image{
+    background-color: aquamarine;
+}
+.atm-image img{
+    padding-right: 10px;
+}
+.brand-store{
+    border: solid;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: -20px;
+    left: 30px;
+}
+.selling-store{
+    padding-right: 50px;
+}

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>E-commerce</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="C:\Users\Nature\Desktop\bootrstrap\ecommerce.css" rel="stylesheet">
+
+  <!-- jQuery (Required by Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+</head>
+<body>
+  
+  <style>
+    
+   
+
+  </style>
+  <!--top bar-->
+   <section>
+    <div class="bg-dark text-light p-2">
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col-md-5 ">
+            <small><i class=" bi-telephone-fill me-1"></i> +91 0123456789</small>
+            <small><i class="ms-2 bi-envelope-fill me-1"></i> rajatheking123@gmailcom</small>
+          </div>
+          <div class="col-md-5 ">
+            <small>Get 50% off on selected items</small>
+            <small>|</small>
+            <a href="#" class="text-light">
+                <small>Shop now</small> </a>
+          </div>
+          <div class="col-md-2 text-end">
+            <a href="#" class="text-light m-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light m-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light m-2"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+ 
+<!--nav bar-->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light sticky-navbar ">
+  <div class="container-fluid ">     
+ 
+    <img class="navbar-brand" height="60px" src="C:\Users\Nature\Desktop\bootrstrap\images\shop.png" alt="bootstrap logo"    ><h4>Shopcart</h4>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+    <span class="navbar-toggler-icon"></span>
+    </button>
+        
+      <div class="collapse navbar-collapse justify-content-center "   id="navbarSupportedContent">
+      
+      <ul class="navbar-nav mb-2 mb-lg-0 text-center ">
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle ms-5 text-dark px-4 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item " href="#">Furniture</a></li>
+            <li><a class="dropdown-item" href="#">Books</a></li>
+            <li><a class="dropdown-item" href="#">Hand bags</a></li>
+            <li><a class="dropdown-item" href="#">Shoes</a></li>
+            <li><a class="dropdown-item" href="#">Tech</a></li>
+
+            
+          </ul>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active text-dark fw-bold px-3" aria-current="page" href="#">Deals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-3 text-dark fw-bold px-3" href="#">Whats new</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link ms-3 text-dark fw-bold px-3" href="#">Delivery
+        
+        
+      </ul>
+    </div>
+  
+      
+    <form class="d-flex text-dark "   role="search" >
+        <input type="text" placeholder=" search for products " style="width: 200px;">
+      <div class=" p-2">
+      <i class="bi bi-person"></i> Account
+      </div>
+      <div class="p-2">
+      <i class="bi bi-cart-plus"></i> Cart
+      </div>
+    </form>
+</nav>
+
+<!--banner-->
+<div class="container-fluid p-0 ">
+<div class="banner">
+  <img class=" w-100" src="C:\Users\Nature\Desktop\bootrstrap\images\banner3.jpg" alt="shopping image" style="height: 500px ;">
+  <div class="banner-caption">
+    <h1>Shopping and <br>departmental store</h1><br>
+    <p>Shopping is the joy of discovering new products and <br>satisfying needs or desires.</p><br>
+    <button class="btn bg-warning ">Learn more</button>
+  </div>
+</div>
+</div>
+
+<!--categories-->
+<div class="container-fluid p-2">
+  <div class="pt-5 pb-5 ">
+  <h5>Shop our categories too</h5>
+  <div class="d-flex justify-content-center ">
+    <div class="owl-carousel owl-theme">
+    <div class="tech-image ">
+    <img  src="C:\Users\Nature\Desktop\bootrstrap\images\tech image.jpg" alt="tech image" style="width: 230px;">
+    <div class="pic-name  text-light bg-dark  ">Tech</div>
+    </div>
+    <div class="tech-image">
+    <img  src="C:\Users\Nature\Desktop\bootrstrap\images\furniture.jpg" alt="furniture" style="width: 230px;">
+     <div class="pic-name  text-light bg-dark  ">Furniture</div>
+    </div>
+    <div class="tech-image">
+    <img src="C:\Users\Nature\Desktop\bootrstrap\images\travel.jpg" alt="travel" style="width: 230px;">
+    <div class="pic-name  text-light bg-dark  ">Travel</div>
+    </div>
+    <div class="tech-image">
+    <img src="C:\Users\Nature\Desktop\bootrstrap\images\books.jpg" alt="books" style="width: 230px;">
+    <div class="pic-name  text-light  bg-dark ">Books</div>
+    </div>
+    <div class="tech-image">
+    <img src="C:\Users\Nature\Desktop\bootrstrap\images\handbag.jpg" alt="handbag" style="width: 230px;">
+    <div class="pic-name  text-light bg-dark  ">Handbag</div>
+    </div>
+    <div class="tech-image">
+    <img src="C:\Users\Nature\Desktop\bootrstrap\images\shoe image.jpg" alt="shoes" style="width: 230px;">
+    <div class="pic-name  text-light bg-dark  ">Shoes</div>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+<!--top deals-->
+<div class="container-fluid p-3">
+  <h5 class="pt-5 ">Todays Best Deals For You</h5>
+  <div class="row">
+    <div class="col-md-3">
+    <div class="deal-card bg-light">
+    <div class="image-wrapper position-relative">
+      <img class="w-100" src="C:\Users\Nature\Desktop\bootrstrap\images\shoes.jpg" alt="">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>
+    </div>
+    <div class="card-body ">
+      <div class=" d-flex justify-content-between ">
+      <h6>Shoes</h6>
+      <p class=""><sup>$</sup>20</p>      
+      </div>
+      <small>3 colors available</small>
+      <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+    </div>
+    </div>
+    </div>
+      
+    
+    <div class="col-md-3">
+    <div class=" deal-card bg-light ">
+      <div class="image-wrapper position-relative">
+      <img class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\travelbag.jpg" alt="">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>
+      </div>
+      <div class="card-body">
+       <div class="d-flex justify-content-between "> 
+        <h6>Travel bag</h6>
+        <p class=""><sup>$</sup>15</p>
+       </div>
+        <small>3 colors available</small>
+        <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3 py-4">
+    <div class= "deal-card bg-light">
+      <div class="image-wrapper position-relative">      
+      <img  class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\camera.jpg" alt="" style="height: 270px;">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>      
+      </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between "> 
+        <h6>Camera</h6>
+        <p class=""><sup>$</sup>25</p>
+        </div>
+        <small>3 colors available</small>
+        <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3 py-4">
+      <div class=" deal-card bg-light">
+      <div class="image-wrapper position-relative">
+      <img  class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\watch2.jpg" alt="" style="height: 270px;">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>      
+      </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between "> 
+        <h6>Watch</h6>
+        <p class=""><sup>$</sup>40</p>
+        </div>
+        <small>3 colors available</small>
+        <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+
+      </div>
+      </div>
+    </div>
+  </div>
+  <br><hr>
+</div>
+
+<!--top brands-->
+<div class="container">
+  <h5 class="pt-5">Choose By Brand</h5><br>
+  <div class="row mb-3  ">
+    <div class="col-md-3  mx-1 py-2 top-brand " style="width: 273px;">
+      <div class=" brand bg-danger text-light text-center d-flex pt-2 m-2 ">
+        <div>BATA</div>
+        <div class="text-dark brand-text  px-2  ">
+          <h6 >Bata</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 top-brand  mx-1" style="width: 273px;">
+      <div class=" brand bg-secondary text-light text-center d-flex pt-2 m-2 ">
+        <div>SONY</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Sony</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 top-brand mx-1" style="width: 273px;">
+      <div class=" brand bg-warning text-light text-center d-flex pt-2 m-2 ">
+        <div>NIKE</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Nike</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 top-brand mx-1" style="width: 273px;">
+      <div class=" brand bg-primary text-light text-center d-flex pt-2 m-2 ">
+        <div>ASUS</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Asus</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-5 ">
+    <div class="col-md-3 top-brand mx-1 p-2" style="width: 273px;">
+      <div class=" brand bg-secondary text-light text-center d-flex pt-2 m-2 ">
+        <div>DELL</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Dell</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div> 
+
+    <div class="col-md-3 top-brand mx-1" style="width: 273px;">
+      <div class=" brand bg-success text-light text-center d-flex pt-2 m-2 ">
+        <div>VIVO</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Vivo</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div> 
+
+    <div class="col-md-3 top-brand mx-1" style="width: 273px;">
+      <div class=" brand bg-danger text-light text-center d-flex pt-2 m-2 ">
+        <div>OPPO</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Oppo</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div> 
+
+    <div class="col-md-3 top-brand mx-1" style="width: 273px;">
+      <div class=" brand bg-success text-light text-center d-flex pt-2 m-2 ">
+        <div>ACER</div>
+        <div class="text-dark brand-text px-2 ">
+          <h6 >Acer</h6>
+          <small>Delivery within in 24 hrs</small>
+        </div>
+      </div>
+    </div> 
+
+  </div> 
+</div>
+
+<!--image-->
+<div class="container">
+<div class="atm-image text-end position-relative px-5">
+  <img class="" src="C:\Users\Nature\Desktop\bootrstrap\images\credit-cards-icon.png" >
+  <div class="position-absolute top-0 pt-5 px-5" >
+    <h1>Get 5% Cashback On</h1>
+    <p>On shopcart.com</p>
+    <button class="btn bg-warning ">Learn more</button>
+  </div>
+</div>
+</div>
+
+<!--Most selling products-->
+<div class="container-fluid p-3">
+  <h5 class="pt-5 ">Most Selling Products</h5>
+  <div class="row">
+    <div class="col-md-3">
+    <div class="deal-card bg-light">
+    <div class="image-wrapper position-relative">
+      <img class="w-100" src="C:\Users\Nature\Desktop\bootrstrap\images\shoes2.jpg" alt="">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>
+    </div>
+    <div class="card-body ">
+      <div class=" d-flex justify-content-between ">
+      <h6>Shoes</h6>
+      <p class=""><sup>$</sup>20</p>      
+      </div>
+      <small>3 colors available</small>
+      <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>    
+    </div>
+    </div>
+    </div>
+      
+    
+    <div class="col-md-3">
+    <div class=" deal-card bg-light ">
+      <div class="image-wrapper position-relative">
+      <img class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\bag.jpg" alt="">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>
+      </div>
+      <div class="card-body">
+       <div class="d-flex justify-content-between "> 
+        <h6>Travel bag</h6>
+        <p class=""><sup>$</sup>15</p>
+       </div>
+        <small>3 colors available</small>
+        <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+      
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class= "deal-card bg-light py-4">
+      <div class="image-wrapper position-relative">     
+      <img  class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\watch3.webp" alt="" style="height: 270px;">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>      
+      </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between "> 
+        <h6>Camera</h6>
+        <p class=""><sup>$</sup>40</p>
+        </div>
+        <small>3 colors available</small>
+        <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+      
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3 py-4">
+      <div class=" deal-card bg-light">
+      <div class="image-wrapper position-relative">
+      <img  class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\shirts1.webp" alt="" style="height:270px;">
+      <i class="bi bi-heart position-absolute top-0 end-0 m-2 text-danger fs-5"></i>      
+      </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between "> 
+        <h6>Watch</h6>
+        <p class=""><sup>$</sup>25</p>
+        </div>
+        <small>3 colors available</small>
+        <button class="btn btn-outline-dark  p-1 m-2" ><small>Add to cart</small></button>
+      
+      </div>
+      </div>
+    </div>
+  </div>
+  <br><hr>
+</div>
+
+<!--trending products-->
+<div class="container-fluid">
+  <h5 class="pt-5">Trending Products For You</h5>
+  <div class="row pt-3">
+    <div class="col-md-6 bg-light    ">
+      
+      <img class="w-100" src="C:\Users\Nature\Desktop\bootrstrap\images\furniture.jpg" alt="furniture" style="height: 270px;">
+      <div class="image-name pt-2">
+        <h5>Furniture village</h5>
+        <small>Delivery within in 24 hrs</small>
+      </div>
+    </div>
+
+    <div class="col-md-6 bg-light">
+      <img class="w-100 " src="C:\Users\Nature\Desktop\bootrstrap\images\shirts.jpg" alt="furniture" style="height: 270px;">
+      <div class="image-name pt-2">
+        <h5>Fashion world</h5>
+        <small>Delivery within in 24 hrs</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--best selling store-->
+<div class="container">
+  <h5 class="pt-5">Best Selling Store</h5>
+  <div class="row pt-3">
+    <div class="col-md-3 bg-light   selling-store">
+      <div class="position-relative">
+      <img class="m-2" src="C:\Users\Nature\Desktop\bootrstrap\images\shoe image.jpg" style="width: 220px;">
+      <div class="  brand-store bg-danger text-light text-center pt-2">
+        <div>BATA</div>
+      </div>
+      </div>
+      <div class="image-name1 pt-4">
+        <h5>Bata</h5>
+        <p>shoes</p>
+        <small>Delivery within 24 hrs</small>
+      </div>
+    </div>
+
+    <div class="col-md-3 bg-light p-2 selling-store">
+      <div class="position-relative">
+      <img  src="C:\Users\Nature\Desktop\bootrstrap\images\nike.webp" style="width: 220px; height: 220px;">
+      <div class="  brand-store bg-success text-light text-center pt-2">
+        <div>NIKE</div>
+      </div>
+      </div>
+      <div class="image-name1 pt-4">
+        <h5>Nike</h5>
+        <p>shoes</p>
+        <small>Delivery within 24 hrs</small>
+      </div>
+    </div>
+
+    <div class="col-md-3 bg-light p-2 selling-store">
+      <div class="position-relative">
+      <img src="C:\Users\Nature\Desktop\bootrstrap\images\asus.jpg" style="width: 220px; height: 220px;">
+      <div class="  brand-store bg-primary text-light text-center pt-2">
+        <div>ASUS</div>
+      </div>
+      </div>
+      <div class="image-name1 pt-4">
+        <h5>Asus</h5>
+        <p>laptops</p>
+        <small>Delivery within 24 hrs</small>
+      </div>
+    </div>
+
+    <div class="col-md-3 bg-light p-2 selling-store">
+      <div class="position-relative">
+      <img src="C:\Users\Nature\Desktop\bootrstrap\images\dell.jpg" style="width: 220px;  height: 220px;">
+      <div class="  brand-store bg-secondary text-light text-center pt-2">
+        <div>DELL</div>
+      </div>
+      </div>
+      <div class="image-name1 pt-4">
+        <h5>Dell</h5>
+        <p>laptops</p>
+        <small>Delivery within 24 hrs</small>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<section >
+  <footer class="bg-dark ">
+    <div class="container text-light ">
+      <div class="row  ">
+        <div class="col-md-3 mt-1">
+          <h2 class="text-light">Contact</h2>
+          <div>
+          <p class="text-light "><i class="bi bi-geo-alt-fill "></i>195,Thaki nagar, Manamadurai-630606.</p>
+          </div>
+          <p class="text-light"><i class=" bi-telephone-fill  "></i> +91 0123456789<br>
+          <i class="bi-envelope-fill "></i> rajatheking123@gmail.com</p>
+          <div class="pt-2 mx-4">
+          <a href="#" class="btn btn-sm btn-outline-light text-light  "><i class="bi bi-facebook"></i></a>
+          <a href="#" class="btn btn-sm btn-outline-light text-light"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="btn btn-sm btn-outline-light text-light"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-2  ">
+          <h2>Quick links</h2>
+          <ul>
+            <li><a href="#" >Categories</a></li>
+             <li><a href="#" >Deals</a></li>
+               <li><a href="#" >Whats new</a></li>
+                <li><a href="#" >Delivery</a></li>
+                 <li><a href="#" >Cart</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3 pt-1 ">
+          <h2>categoies</h2>
+          <div class="p-1">
+            <i class="bi bi-caret-right-fill"></i>Furniture
+          </div>
+          <div class="p-1">
+            <i class="bi bi-caret-right-fill"></i>Books
+          </div>
+          <div class="p-1">
+            <i class="bi bi-caret-right-fill"></i>Tech
+          </div>
+          <div class="p-1">
+            <i class="bi bi-caret-right-fill"></i>Handbag
+          </div>
+          <div class="p-1">
+            <i class="bi bi-caret-right-fill"></i>Shoes
+          </div>
+      </div>
+     <div class="col-md-3 mb-4">
+          <h2>Newsletter</h2>
+          <div><p>For any queries,please reach out us !!</p></div>
+          <div class="input-group mt-2">
+            <input type="email" class="form-control" placeholder="  enter email">
+            <button class="btn btn-warning">signup</button>
+          </div>
+      </div>  
+    </div>
+    
+    <hr>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 mb-2 px-5">
+          <div>© Mobilephones,All Rights Reserved</div>
+        </div>
+        <div class="col-md-2 mb-2">
+          <div>Designed by Raja</div>
+        </div>
+    </div>
+    </div>
+    </footer>
+    
+  
+</section>
+
+<script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 20,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        576: {
+          items: 2
+        },
+        768: {
+          items: 3
+        },
+        992: {
+          items: 4
+        },
+        1200: {
+          items: 5
+        }
+      }
+    });
+  });
+</script>
+
+</body>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</html>
